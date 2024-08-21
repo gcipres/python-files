@@ -12,10 +12,17 @@ def resize_image(image_path, new_width, new_height):
 
     image_resized_path = os.path.join(root_path, f"{file_name}_{new_width}x{new_height}{extension}")
 
-    # Guardar la imagen redimensionada
     cv2.imwrite(image_resized_path, img_resized)
 
     print(f"Image saved like: {image_resized_path}")
 
 
-resize_image("image.png", 60, 60)
+# icons for android
+resize_image("icon.png", 162, 162)
+resize_image("icon.png", 108, 108)
+resize_image("icon.png", 216, 216)
+resize_image("icon.png", 324, 324)
+resize_image("icon.png", 432, 432)
+
+# splash for android
+resize_image("splash.png", 1414, 2000)
