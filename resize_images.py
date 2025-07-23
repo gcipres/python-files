@@ -37,28 +37,58 @@ def resize_image(image_path, output_path, new_width, new_height, rounded=False):
 
     print(f"Image saved like: {output_path}")
 
-# icons for android
+# for react native app
 resize_image("icon.png", "./mipmap-mdpi/ic_launcher.png", 48, 48)
 resize_image("icon.png", "./mipmap-hdpi/ic_launcher.png", 72, 72)
 resize_image("icon.png", "./mipmap-xhdpi/ic_launcher.png", 96, 96)
 resize_image("icon.png", "./mipmap-xxhdpi/ic_launcher.png", 144, 144)
 resize_image("icon.png", "./mipmap-xxxhdpi/ic_launcher.png", 192, 192)
-
 resize_image("icon.png", "./mipmap-mdpi/ic_launcher_round.png", 48, 48, True)
 resize_image("icon.png", "./mipmap-hdpi/ic_launcher_round.png", 72, 72, True)
 resize_image("icon.png", "./mipmap-xhdpi/ic_launcher_round.png", 96, 96, True)
 resize_image("icon.png", "./mipmap-xxhdpi/ic_launcher_round.png", 144, 144, True)
 resize_image("icon.png", "./mipmap-xxxhdpi/ic_launcher_round.png", 192, 192, True)
-
 resize_image("icon.png", "./mipmap-mdpi/ic_launcher_foreground.png", 108, 108)
 resize_image("icon.png", "./mipmap-hdpi/ic_launcher_foreground.png", 162, 162)
 resize_image("icon.png", "./mipmap-xhdpi/ic_launcher_foreground.png", 216, 216)
 resize_image("icon.png", "./mipmap-xxhdpi/ic_launcher_foreground.png", 324, 324)
 resize_image("icon.png", "./mipmap-xxxhdpi/ic_launcher_foreground.png", 432, 432)
-
-# splash for android
 resize_image("icon.png", "./drawable-mdpi/splashscreen_logo.png", 288, 288)
 resize_image("icon.png", "./drawable-hdpi/splashscreen_logo.png", 432, 432)
 resize_image("icon.png", "./drawable-xhdpi/splashscreen_logo.png", 576, 576)
 resize_image("icon.png", "./drawable-xxhdpi/splashscreen_logo.png", 864, 864)
 resize_image("icon.png", "./drawable-xxxhdpi/splashscreen_logo.png", 1152, 1152)
+
+# for ionic app
+# resize_image("icon.png", "./icon/drawable-hdpi-icon.png", 71, 71)
+# resize_image("icon.png", "./icon/drawable-ldpi-icon.png", 36, 36)
+# resize_image("icon.png", "./icon/drawable-mdpi-icon.png", 48, 48)
+# resize_image("icon.png", "./icon/drawable-xhdpi-icon.png", 96, 96)
+# resize_image("icon.png", "./icon/drawable-xxhdpi-icon.png", 144, 144)
+# resize_image("icon.png", "./icon/drawable-xxxhdpi-icon.png", 192, 192)
+# resize_image("splash.png", "./splash/drawable-port-hdpi-screen.png", 480, 800)
+# resize_image("splash.png", "./splash/drawable-port-ldpi-screen.png", 240, 320)
+# resize_image("splash.png", "./splash/drawable-port-mdpi-screen.png", 320, 480)
+# resize_image("splash.png", "./splash/drawable-port-xhdpi-screen.png", 720, 1280)
+# resize_image("splash.png", "./splash/drawable-port-xxhdpi-screen.png", 960, 1600)
+# resize_image("splash.png", "./splash/drawable-port-xxxhdpi-screen.png", 1280, 1920)
+
+# for unity game
+# resize_image("icon.png", "./adaptative/81.png", 81, 81)
+# resize_image("icon.png", "./adaptative/108.png", 108, 108)
+# resize_image("icon.png", "./adaptative/162.png", 162, 162)
+# resize_image("icon.png", "./adaptative/216.png", 216, 216)
+# resize_image("icon.png", "./adaptative/324.png", 324, 324)
+# resize_image("icon.png", "./adaptative/432.png", 432, 432)
+# resize_image("icon.png", "./round/36.png", 36, 36, True)
+# resize_image("icon.png", "./round/48.png", 48, 48, True)
+# resize_image("icon.png", "./round/72.png", 72, 72, True)
+# resize_image("icon.png", "./round/96.png", 96, 96, True)
+# resize_image("icon.png", "./round/144.png", 144, 144, True)
+# resize_image("icon.png", "./round/192.png", 192, 192, True)
+# resize_image("icon.png", "./legacy/36.png", 36, 36)
+# resize_image("icon.png", "./legacy/48.png", 48, 48)
+# resize_image("icon.png", "./legacy/72.png", 72, 72)
+# resize_image("icon.png", "./legacy/96.png", 96, 96)
+# resize_image("icon.png", "./legacy/144.png", 144, 144)
+# resize_image("icon.png", "./legacy/192.png", 192, 192)
